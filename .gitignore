@@ -73,3 +73,22 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+# Unreal Engine generated cache (prevents webcache from appearing in Git)
+Saved/
+Intermediate/
+DerivedDataCache/
+Binaries/
+
+# Convai / WebRTC Cache
+*/Saved/webcache_*/Cache/
+*/Saved/webcache_*/GPUCache/
+*/Saved/webcache_*/Code Cache/
+*/Saved/webcache_*/Cache/*
+
+# Web browser cache used by UE
+*/Saved/webcache_*/Local Storage/
+*/Saved/webcache_*/Service Worker/
+
+# Logs (optional)
+*.log
+
