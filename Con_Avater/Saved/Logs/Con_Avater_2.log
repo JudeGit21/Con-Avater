@@ -2545,3 +2545,15 @@ emotion_response: "Joy Trust Anticipation"
 [2025.11.28-07.40.30:059][543]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3160.994385
 [2025.11.28-07.40.31:059][546]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.28-07.40.31:059][546]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3161.661133, Update Interval: 323.881348
+[2025.11.28-07.43.05:568][ 58]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2025.11.28-07.43.05:651][ 63]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2025.11.28-07.43.05:850][ 74]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2025.11.28-07.43.08:125][195]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.11.28-07.43.21:404][934]LogViewport: Scene viewport resized to 1011x580, mode Windowed.
+[2025.11.28-07.43.23:717][ 64]LogViewport: Scene viewport resized to 1522x892, mode Windowed.
+[2025.11.28-07.43.45:999][340]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2025.11.28-07.44.11:839][743]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2025.11.28-07.44.17:507][915]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2025.11.28-07.44.21:196][927]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2025.11.28-07.44.22:175][929]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2025.11.28-07.44.23:526][934]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
