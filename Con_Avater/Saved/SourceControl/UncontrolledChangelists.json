@@ -6,11 +6,13 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
-				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/8U/1IT14UTZTOURHM49KIH9LW.uasset",
 				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/Avater.uasset",
-				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/V1/M93X4IK0I4B8YFJVSQ2X1M.uasset",
-				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset"
+				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset",
+				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/MetaHumans/Cooper/BP_Cooper.uasset",
+				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/6P/WE8NOFP0NK41T4JGPB8D4F.uasset",
+				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/8U/1IT14UTZTOURHM49KIH9LW.uasset",
+				"C:/Solid-Principle/Con-Avater/Con_Avater/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/V1/M93X4IK0I4B8YFJVSQ2X1M.uasset"
 			]
 		}
 	]
