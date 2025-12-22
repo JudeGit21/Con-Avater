@@ -321,3 +321,367 @@ emotion_response: "Joy Trust Anticipation"
 [08:36:15] ConvaiSubsystemLog : Log : End Run
 [08:36:15] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 24d9c46d38a7194e9d8745b12885e5ea
 [08:36:15] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 24d9c46d38a7194e9d8745b12885e5ea
+[08:45:17] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[08:45:17] ConvaiSubsystemLog : Log : Start Run
+[08:45:17] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[08:45:17] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[08:45:17] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[08:45:34] ConvaiPlayerLog : Log : Started Talking
+[08:45:34] ConvaiAudioLog : Log : Using Mikrofonuppsättning (Realtek(R) Audio) as Audio capture device with NumChannels:2 and SampleRate:48000
+[08:45:34] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[08:45:34] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : request: character_id: "ea6ea19e-ca0e-11f0-8245-42010a7be027"
+api_key: "5ff1f80b5ca3741d51e90a2fc9cacebd"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "John"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiPlayerLog : Log : FinishTalking calling FinishGetResponseStream
+[08:45:34] ConvaiGRPCLog : Log : Finish Writing to audio data buffer
+[08:45:34] ConvaiGRPCLog : Log : FinishWriting:: Informing On Data Received
+[08:45:34] ConvaiGRPCLog : Log : Calling Stream WritesDone | LastWriteReceived : True | AudioBuffer.Num() : 0 | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : On Stream Write Done Writing
+[08:45:34] ConvaiPlayerLog : Log : Finished Talking
+[08:45:34] ConvaiGRPCLog : Log : OnStreamWriteDone
+[08:45:34] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 2046
+[08:45:34] ConvaiPlayerLog : Log : Started Talking
+[08:45:34] ConvaiAudioLog : Log : Using Mikrofonuppsättning (Realtek(R) Audio) as Audio capture device with NumChannels:2 and SampleRate:48000
+[08:45:34] ConvaiChatbotComponentLog : Log : InterruptSpeech: Interrupting character | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 0.000000 seconds
+[08:45:34] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : request: character_id: "ea6ea19e-ca0e-11f0-8245-42010a7be027"
+api_key: "5ff1f80b5ca3741d51e90a2fc9cacebd"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "John"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:34] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiPlayerLog : Log : FinishTalking calling FinishGetResponseStream
+[08:45:35] ConvaiGRPCLog : Log : Finish Writing to audio data buffer
+[08:45:35] ConvaiGRPCLog : Log : FinishWriting:: Informing On Data Received
+[08:45:35] ConvaiGRPCLog : Log : Calling Stream WritesDone | LastWriteReceived : True | AudioBuffer.Num() : 0 | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : On Stream Write Done Writing
+[08:45:35] ConvaiPlayerLog : Log : Finished Talking
+[08:45:35] ConvaiGRPCLog : Log : OnStreamWriteDone
+[08:45:35] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 3410
+[08:45:35] ConvaiPlayerLog : Log : Started Talking
+[08:45:35] ConvaiAudioLog : Log : Using Mikrofonuppsättning (Realtek(R) Audio) as Audio capture device with NumChannels:2 and SampleRate:48000
+[08:45:35] ConvaiChatbotComponentLog : Log : InterruptSpeech: Interrupting character | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 0.000000 seconds
+[08:45:35] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : request: character_id: "ea6ea19e-ca0e-11f0-8245-42010a7be027"
+api_key: "5ff1f80b5ca3741d51e90a2fc9cacebd"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "John"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiPlayerLog : Log : FinishTalking calling FinishGetResponseStream
+[08:45:35] ConvaiGRPCLog : Log : Finish Writing to audio data buffer
+[08:45:35] ConvaiGRPCLog : Log : FinishWriting:: Informing On Data Received
+[08:45:35] ConvaiGRPCLog : Log : Calling Stream WritesDone | LastWriteReceived : True | AudioBuffer.Num() : 0 | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : On Stream Write Done Writing
+[08:45:35] ConvaiPlayerLog : Log : Finished Talking
+[08:45:35] ConvaiGRPCLog : Log : OnStreamWriteDone
+[08:45:35] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 2728
+[08:45:35] ConvaiPlayerLog : Log : Started Talking
+[08:45:35] ConvaiAudioLog : Log : Using Mikrofonuppsättning (Realtek(R) Audio) as Audio capture device with NumChannels:2 and SampleRate:48000
+[08:45:35] ConvaiChatbotComponentLog : Log : InterruptSpeech: Interrupting character | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 0.000000 seconds
+[08:45:35] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : request: character_id: "ea6ea19e-ca0e-11f0-8245-42010a7be027"
+api_key: "5ff1f80b5ca3741d51e90a2fc9cacebd"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "John"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiPlayerLog : Log : FinishTalking calling FinishGetResponseStream
+[08:45:35] ConvaiGRPCLog : Log : Finish Writing to audio data buffer
+[08:45:35] ConvaiGRPCLog : Log : FinishWriting:: Informing On Data Received
+[08:45:35] ConvaiGRPCLog : Log : Calling Stream WritesDone | LastWriteReceived : True | AudioBuffer.Num() : 0 | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:35] ConvaiGRPCLog : Log : On Stream Write Done Writing
+[08:45:35] ConvaiPlayerLog : Log : Finished Talking
+[08:45:35] ConvaiGRPCLog : Log : OnStreamWriteDone
+[08:45:35] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 1364
+[08:45:36] ConvaiPlayerLog : Log : Started Talking
+[08:45:36] ConvaiAudioLog : Log : Using Mikrofonuppsättning (Realtek(R) Audio) as Audio capture device with NumChannels:2 and SampleRate:48000
+[08:45:36] ConvaiChatbotComponentLog : Log : InterruptSpeech: Interrupting character | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:36] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:36] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 0.000000 seconds
+[08:45:36] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:36] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:36] ConvaiGRPCLog : Log : request: character_id: "ea6ea19e-ca0e-11f0-8245-42010a7be027"
+api_key: "5ff1f80b5ca3741d51e90a2fc9cacebd"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "John"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:36] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:36] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:36] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "3cb33767c1380a05bf033486fe202cfe"
+emotion_response: "Distraction"
+
+[08:45:37] ConvaiGRPCLog : Log : Received Audio Chunk: 1.120726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 3cb33767c1380a05bf033486fe202cfe
+[08:45:37] ConvaiGRPCLog : Log : EmotionResponse: surprise 1
+[08:45:37] ConvaiGRPCLog : Log : Received Text That's an interesting question. : | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 3cb33767c1380a05bf033486fe202cfe | ReceivedFinalResponse : False
+[08:45:37] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "3cb33767c1380a05bf033486fe202cfe"
+emotion_response: "Distraction"
+
+[08:45:37] ConvaiGRPCLog : Log : Received Audio Chunk: 2.960726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 3cb33767c1380a05bf033486fe202cfe
+[08:45:37] ConvaiGRPCLog : Log : EmotionResponse: surprise 1
+[08:45:37] ConvaiGRPCLog : Log : Received Text What kind of format change are you looking for?: | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 3cb33767c1380a05bf033486fe202cfe | ReceivedFinalResponse : True
+[08:45:37] ConvaiGRPCLog : Log : GetResponse SequenceString: None
+[08:45:37] ConvaiGRPCLog : Log : Action: None
+[08:45:37] ConvaiPlayerLog : Log : FinishTalking calling FinishGetResponseStream
+[08:45:37] ConvaiGRPCLog : Log : Finish Writing to audio data buffer
+[08:45:37] ConvaiGRPCLog : Log : FinishWriting:: Informing On Data Received
+[08:45:37] ConvaiGRPCLog : Log : Calling Stream WritesDone | LastWriteReceived : True | AudioBuffer.Num() : 0 | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : -1
+[08:45:37] ConvaiGRPCLog : Log : On Stream Write Done Writing
+[08:45:37] ConvaiPlayerLog : Log : Finished Talking
+[08:45:37] ConvaiGRPCLog : Log : OnStreamWriteDone
+[08:45:37] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 37510
+[08:45:38] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "3cb33767c1380a05bf033486fe202cfe"
+emotion_response: "Trust Serenity Interest Distraction Apprehension Pensiveness Boredom Annoyance"
+
+[08:45:38] ConvaiGRPCLog : Log : Received UserQuery Hello.: | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac | IsFinalTranscription : False
+[08:45:38] ConvaiGRPCLog : Log : Received UserQuery Hello there.: | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac | IsFinalTranscription : True
+[08:45:38] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[08:45:38] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 3cb33767c1380a05bf033486fe202cfe
+[08:45:38] ConvaiGRPCLog : Log : On Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 3cb33767c1380a05bf033486fe202cfe
+[08:45:38] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "5a2401dda7a4bd2523d05fd39d466719"
+emotion_response: "Serenity"
+
+[08:45:39] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "d67d76e9c7a3ed2d79afc22d0ee0998a"
+emotion_response: "Serenity"
+
+[08:45:39] ConvaiGRPCLog : Log : Received Audio Chunk: 1.160726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 5a2401dda7a4bd2523d05fd39d466719
+[08:45:39] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:39] ConvaiGRPCLog : Log : Received Text Hello, Player! : | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 5a2401dda7a4bd2523d05fd39d466719 | ReceivedFinalResponse : False
+[08:45:39] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "5a2401dda7a4bd2523d05fd39d466719"
+emotion_response: "Serenity"
+
+[08:45:39] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "27df51a40b2a567eeeca8300b996b2bc"
+emotion_response: "Serenity"
+
+[08:45:39] ConvaiGRPCLog : Log : Received Audio Chunk: 1.600726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 5a2401dda7a4bd2523d05fd39d466719
+[08:45:39] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:39] ConvaiGRPCLog : Log : Received Text What can I do for you today?: | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 5a2401dda7a4bd2523d05fd39d466719 | ReceivedFinalResponse : True
+[08:45:39] ConvaiGRPCLog : Log : GetResponse SequenceString: None
+[08:45:39] ConvaiGRPCLog : Log : Action: None
+[08:45:39] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "b5fff779515f3eb70e8fc94713be34ac"
+emotion_response: "Serenity"
+
+[08:45:39] ConvaiGRPCLog : Log : Received Audio Chunk: 0.640726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a
+[08:45:39] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:39] ConvaiGRPCLog : Log : Received Text Hello there! : | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a | ReceivedFinalResponse : False
+[08:45:39] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "d67d76e9c7a3ed2d79afc22d0ee0998a"
+emotion_response: "Serenity"
+
+[08:45:39] ConvaiGRPCLog : Log : Received Audio Chunk: 0.400726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac
+[08:45:39] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:39] ConvaiAudioStreamerLog : Log : State transition: Stopped -> WaitingOnAudio
+[08:45:39] ConvaiGRPCLog : Log : Received Text Hello! : | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac | ReceivedFinalResponse : False
+[08:45:39] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "b5fff779515f3eb70e8fc94713be34ac"
+emotion_response: "Serenity"
+
+[08:45:40] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "5a2401dda7a4bd2523d05fd39d466719"
+emotion_response: "Trust Serenity"
+
+[08:45:40] ConvaiGRPCLog : Log : Received Audio Chunk: 1.640726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 27df51a40b2a567eeeca8300b996b2bc
+[08:45:40] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:40] ConvaiGRPCLog : Log : Received Text Alright, I'm ready for your questions. : | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 27df51a40b2a567eeeca8300b996b2bc | ReceivedFinalResponse : False
+[08:45:40] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "27df51a40b2a567eeeca8300b996b2bc"
+emotion_response: "Serenity"
+
+[08:45:40] ConvaiGRPCLog : Log : Received Audio Chunk: 1.960726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 27df51a40b2a567eeeca8300b996b2bc
+[08:45:40] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:40] ConvaiGRPCLog : Log : Received Text Lay them on me.: | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 27df51a40b2a567eeeca8300b996b2bc | ReceivedFinalResponse : True
+[08:45:40] ConvaiGRPCLog : Log : GetResponse SequenceString: None
+[08:45:40] ConvaiGRPCLog : Log : Action: None
+[08:45:40] ConvaiGRPCLog : Log : Received Audio Chunk: 2.040726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a
+[08:45:40] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:40] ConvaiGRPCLog : Log : Received Text It's a pleasure to meet you. : | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a | ReceivedFinalResponse : False
+[08:45:40] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "d67d76e9c7a3ed2d79afc22d0ee0998a"
+emotion_response: "Serenity"
+
+[08:45:40] ConvaiGRPCLog : Log : Received Audio Chunk: 2.520726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a
+[08:45:40] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:40] ConvaiGRPCLog : Log : Received Text What brings you to this neck of the woods?: | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a | ReceivedFinalResponse : True
+[08:45:40] ConvaiGRPCLog : Log : GetResponse SequenceString: None
+[08:45:40] ConvaiGRPCLog : Log : Action: None
+[08:45:40] ConvaiGRPCLog : Log : Received Audio Chunk: 1.640726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac
+[08:45:40] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:40] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[08:45:40] ConvaiAudioStreamerLog : Log : New Channels: 1
+[08:45:40] ConvaiAudioStreamerLog : Log : State transition: WaitingOnAudio -> Playing
+[08:45:40] ConvaiGRPCLog : Log : Received Text It's a pleasure to meet you. : | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac | ReceivedFinalResponse : False
+[08:45:40] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "b5fff779515f3eb70e8fc94713be34ac"
+emotion_response: "Serenity"
+
+[08:45:40] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[08:45:40] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 5a2401dda7a4bd2523d05fd39d466719
+[08:45:40] ConvaiGRPCLog : Log : On Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 5a2401dda7a4bd2523d05fd39d466719
+[08:45:40] ConvaiGRPCLog : Log : Received Audio Chunk: 1.360726 secs | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac
+[08:45:40] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[08:45:40] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 3.399116 seconds
+[08:45:40] ConvaiGRPCLog : Log : Received Text How can I help you today?: | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac | ReceivedFinalResponse : True
+[08:45:40] ConvaiGRPCLog : Log : GetResponse SequenceString: None
+[08:45:40] ConvaiGRPCLog : Log : Action: None
+[08:45:40] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "27df51a40b2a567eeeca8300b996b2bc"
+emotion_response: "Trust Serenity Interest Distraction"
+
+[08:45:40] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "d67d76e9c7a3ed2d79afc22d0ee0998a"
+emotion_response: "Ecstasy Trust Anticipation"
+
+[08:45:41] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[08:45:41] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 27df51a40b2a567eeeca8300b996b2bc
+[08:45:41] ConvaiGRPCLog : Log : On Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 27df51a40b2a567eeeca8300b996b2bc
+[08:45:41] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "b5fff779515f3eb70e8fc94713be34ac"
+emotion_response: "Admiration Ecstasy Interest"
+
+[08:45:41] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[08:45:41] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a
+[08:45:41] ConvaiGRPCLog : Log : On Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a
+[08:45:42] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[08:45:42] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac
+[08:45:42] ConvaiGRPCLog : Log : On Stream Finish | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac
+[08:45:42] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac
+[08:45:43] ConvaiAudioStreamerLog : Log : onAudioFinished
+[08:45:43] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[08:45:53] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[08:45:53] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[08:45:53] ConvaiSubsystemLog : Log : End Run
+[08:45:53] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 3cb33767c1380a05bf033486fe202cfe
+[08:45:53] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac
+[08:45:53] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 27df51a40b2a567eeeca8300b996b2bc
+[08:45:53] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : d67d76e9c7a3ed2d79afc22d0ee0998a
+[08:45:53] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : 5a2401dda7a4bd2523d05fd39d466719
+[08:45:53] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : ea6ea19e-ca0e-11f0-8245-42010a7be027 | Session ID : b5fff779515f3eb70e8fc94713be34ac
